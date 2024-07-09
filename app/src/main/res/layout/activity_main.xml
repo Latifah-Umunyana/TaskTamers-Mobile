@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_back_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="53dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/augustus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/account_circle_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/tvQandA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/augustus"
+        android:text="Q and A "
+        android:textColor="#9747FF"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPostedQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Question Posted"
+        android:textSize="30dp"
+        android:height="150dp"
+        android:textColor="@color/white"
+        android:width="350dp"
+        android:background="#9747FF"
+        android:padding="150px"
+        android:fontFamily="@font/augustus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvQandA" />
+
+    <TextView
+        android:id="@+id/tvAnswer"
+        android:layout_width="273dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="32dp"
+        android:width="200dp"
+        android:height="120dp"
+        android:background="#9747FF"
+        android:padding="120px"
+        android:text="Answer"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/augustus"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPostedQuiz" />
+
+    <TextView
+        android:id="@+id/idPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="72dp"
+        android:fontFamily="@font/augustus"
+        android:text="Post"
+        android:textColor="#9747FF"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tilType" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilType"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#9747FF"
+        app:layout_constraintStart_toStartOf="@+id/tvPostedQuiz"
+        app:layout_constraintTop_toBottomOf="@+id/tvAnswer">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="200px"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/augustus"
+            android:textColorHint="@color/white"
+            android:hint="Type your question... " />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
