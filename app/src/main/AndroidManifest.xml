@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Ubora"
         tools:targetApi="31">
         <activity
+            android:name=".DeletedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeletionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomepgeActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Ubora</string>
+    <string name="q_a"><![CDATA[Q & A]]></string>
+    <string name="password_and_confirmation_do_not_match" />
+    <string name="password_and_confirmation_is_required" />
+    <string name="password_is_required" />
+    <string name="first_name_is_required" />
+    <string name="last_name_is_required" />
+    <string name="email_is_required" />
+    <string name="confirm_password">Confirm Password</string>
 </resources>
