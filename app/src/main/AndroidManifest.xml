@@ -25,7 +25,7 @@
             android:name=".HomepgeActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SignUpActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
