@@ -13,6 +13,15 @@
         android:theme="@style/Theme.UboraCBC"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityRiceRecipe"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityUpload"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityCamera"
+            android:exported="false" />
+        <activity
             android:name=".PracticalPage"
             android:exported="false" />
         <activity
