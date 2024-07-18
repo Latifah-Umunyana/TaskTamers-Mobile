@@ -1,5 +1,6 @@
 package com.akirachix.uboracbc
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -12,6 +13,12 @@ class PracticalPage : AppCompatActivity() {
         binding = ActivityPracticalPageBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.rvPracticals.layoutManager = LinearLayoutManager(this)
+
+        binding.PrevBtnPracticals.setOnClickListener{
+            val intent = Intent( this, ActivityCamera::class.java)
+
+            startActivity(intent)
+        }
 
         displayPractical()
 
