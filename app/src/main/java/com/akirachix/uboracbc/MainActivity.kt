@@ -17,5 +17,11 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intent)
         }
+
+        binding.ivRightArrow.setOnClickListener{
+            val intent = Intent( this, ActivityLoginPage::class.java)
+
+            startActivity(intent)
+        }
     }
 }

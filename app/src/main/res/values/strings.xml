@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Ubora CBC</string>
+    <string name="don_t_have_an_account_sign_up">Dont have an account?sign up</string>
+    <string name="login">LogIn</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="welcome">Welcome</string>
+    <string name="hey">Hey,</string>
+    <string name="image">image</string>
 </resources>

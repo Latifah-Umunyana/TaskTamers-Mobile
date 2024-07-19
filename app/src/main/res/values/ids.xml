@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvWelcome" type="id"/>
+    <item name="ivProfile" type="id"/>
+    <item name="tilFullName" type="id"/>
+    <item name="etFullName" type="id"/>
+    <item name="tilPassword" type="id"/>
+    <item name="etPassword" type="id"/>
+</resources>
+<!--<item-->
+<!--type="id"-->
+<!--name="id_name" />-->

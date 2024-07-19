@@ -14,9 +14,7 @@ class PracticalPage : AppCompatActivity() {
         binding.rvPracticals.layoutManager = LinearLayoutManager(this)
 
         displayPractical()
-
     }
-
     fun displayPractical(){
 
         val practical1 = Practical("Knitting","","Scarf","Modelling","","House")
@@ -28,5 +26,4 @@ class PracticalPage : AppCompatActivity() {
         val practicalAdapter = PracticalAdapter(practicalList)
         binding.rvPracticals.adapter = practicalAdapter
     }
-
 }
