@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.akirachix.ubora.databinding.ActivitySignUpBinding
-
 class SignUpActivity : AppCompatActivity() {
     lateinit var binding: ActivitySignUpBinding
     override fun onCreate(savedInstanceState: Bundle?) {
